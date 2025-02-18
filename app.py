@@ -50,5 +50,7 @@ def main():
     if st.button("New Chat"):
         initialize_state()
 
+    display_chat_history()
+
 if __name__ == '__main__':
     main()
